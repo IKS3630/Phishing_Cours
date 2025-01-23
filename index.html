@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formation Cybersécurité - Phishing</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-adjust"></i>
+    </button>
+
+<!--HEADER-->
+
+    <div class="header">
+        <div class="container">
+            <h1>🛡️ Cybersécurité : Maîtrisez le Phishing</h1>
+            <p>Formation complète pour protéger vos données personnelles et professionnelles</p>
+        </div>
+    </div>
+
+
+<!--PAV 1-->
+    <div class="container">
+        <h2 class="text-2xl font-bold text-center my-8">Techniques de Vérification</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-user-secret"></i>
+                    Expéditeur inconnu ou suspect
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Les emails de phishing proviennent souvent d'adresses non professionnelles ou légèrement modifiées.</p>
+                    <p>Exemple 1 : informatique.berim@gmail.com ❌</p>
+                    <p>Exemple 2 : support.info@berim.fr ✅</p>
+                    <p>Exemple 3 : jean.dupont@orange.fr ❌</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-envelope-open"></i>
+                    Adresse email légèrement modifiée
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Les cybercriminels utilisent des variations subtiles d'adresses email connues pour tromper les utilisateurs. Soyez attentif aux différences minimes.</p>
+                    <p>Exemple 1: inf0rmatique.berim@gmail.com ❌</p>
+                    <p>Exemple 2 :support@paypai.com❌ </p>
+                    <p>Exemple 3 :support@paypal.com ✅</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-exclamation-circle"></i>
+                    Urgence inhabituelle
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Les emails de phishing créent souvent un sentiment d'urgence pour vous pousser à agir sans réfléchir. Restez calme et vérifiez toujours.</p>
+                    <p>Exemple 1 : "Votre facture n’a pas pu être prélevée. Veuillez régulariser immédiatement." ❌</p>
+                    <p>Exemple 2 : "Alerte : Une connexion non autorisée a été détectée." ❌ </p>
+                    <p>Exemple 3 : "Votre remboursement est prêt – Cliquez ici pour confirmer." ❌</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-key"></i>
+                    Demandes de données sensibles
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Les organisations légitimes ne demanderont jamais vos informations sensibles par email. Soyez extrêmement prudent avec ces requêtes.</p>
+                    <p>Exemple 1 : "Connectez-vous ici pour éviter la désactivation de votre compte et confirmez votre mot de passe."❌</p>
+                    <p>Exemple 2 : "Pour des raisons de sécurité, veuillez télécharger une photo de votre carte nationale d'identité." ❌ </p>
+                    <p>Exemple 3 : "Nous avons besoin de confirmer vos coordonnées bancaires pour débloquer votre dernier paiement." ❌</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-link"></i>
+                    Liens/pièces jointes inattendus
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Ne cliquez jamais sur des liens ou n'ouvrez jamais des pièces jointes d'origine inconnue. Ils peuvent contenir des logiciels malveillants.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--PAV 2-->
+    <div class="container">
+        <h2 class="text-2xl font-bold text-center my-8">Techniques de Vérification</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-mouse-pointer"></i>
+                    Survoler les liens
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Passez la souris sur un lien sans cliquer pour voir sa véritable destination. Les URL suspectes sont souvent masquées derrière des textes trompeurs.</p>
+                    <img src="/api/placeholder/400/200" alt="Survol de lien">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-eye"></i>
+                    Vérification visuelle
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Examinez attentivement la mise en page, les logos et la qualité graphique. Les emails de phishing contiennent souvent des erreurs visuelles subtiles.</p>
+                    <img src="/api/placeholder/400/200" alt="Vérification visuelle">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-certificate"></i>
+                    Authentification
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Utilisez des mécanismes d'authentification comme les certificats numériques et vérifiez l'identité de l'expéditeur via des canaux officiels.</p>
+                    <img src="/api/placeholder/400/200" alt="Authentification">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-bug"></i>
+                    Détection de logiciels malveillants
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Utilisez des logiciels antivirus à jour et des outils de détection de phishing pour scanner les emails suspects.</p>
+                    <img src="/api/placeholder/400/200" alt="Détection de logiciels malveillants">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-code"></i>
+                    Analyse des en-têtes
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Examinez les en-têtes techniques de l'email pour identifier des signes de falsification ou d'origine suspecte.</p>
+                    <img src="/api/placeholder/400/200" alt="Analyse des en-têtes">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--PAV 3-->
+    <div class="container">
+        <h2 class="text-2xl font-bold text-center my-8">Réponses Immédiates</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-stop-circle"></i>
+                    Ne pas interagir
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Ne répondez jamais, ne cliquez sur aucun lien et ne téléchargez aucun fichier. L'interaction peut confirmer votre adresse email ou installer des logiciels malveillants.</p>
+                    <img src="/api/placeholder/400/200" alt="Ne pas interagir">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-shield-alt"></i>
+                    Signalement
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Signalez immédiatement l'email à votre service informatique ou au responsable de la sécurité. Conservez l'email comme preuve.</p>
+                    <img src="/api/placeholder/400/200" alt="Signalement">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-trash"></i>
+                    Suppression sécurisée
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Supprimez l'email de manière sécurisée. Sur certaines plateformes, utilisez l'option de suppression définitive.</p>
+                    <img src="/api/placeholder/400/200" alt="Suppression sécurisée">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-lock"></i>
+                    Changement de mots de passe
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Si vous avez par inadvertance fourni des informations, changez immédiatement tous vos mots de passe et activez l'authentification à deux facteurs.</p>
+                    <img src="/api/placeholder/400/200" alt="Changement de mots de passe">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item-header" onclick="toggleContent(this)">
+                    <i class="fas fa-ambulance"></i>
+                    Suivi et surveillance
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </div>
+                <div class="grid-item-content">
+                    <p>Surveillez vos comptes bancaires, emails et autres services pour détecter toute activité suspecte suite à une tentative de phishing.</p>
+                    <img src="/api/placeholder/400/200" alt="Suivi et surveillance">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="text-center mt-8">
+            <a href="#" class="cta-button" onclick="startQuiz()">
+                <i class="fas fa-play"></i> Commencer le Quiz de Sensibilisation
+            </a>
+        </div>
+    </div>
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+        }
+
+        function toggleContent(header) {
+    // Trouver le parent .grid-container
+    const gridContainer = header.closest('.grid-container');
+    
+    // Trouver tous les items dans le conteneur
+    const gridItems = gridContainer.querySelectorAll('.grid-item');
+    
+    // Identifier la position de la ligne à laquelle appartient l'élément cliqué
+    const clickedItem = header.closest('.grid-item');
+    const clickedItemIndex = Array.from(gridItems).indexOf(clickedItem);
+    const columns = Math.floor(gridContainer.offsetWidth / clickedItem.offsetWidth);
+    const rowStartIndex = Math.floor(clickedItemIndex / columns) * columns;
+    const rowEndIndex = rowStartIndex + columns;
+
+    // Parcourir les items
+    gridItems.forEach((gridItem, index) => {
+        const currentHeader = gridItem.querySelector('.grid-item-header');
+        const currentContent = gridItem.querySelector('.grid-item-content');
+        const currentIcon = currentHeader.querySelector('.fa-chevron-down');
+        
+        // Ouvrir/fermer tous les items de la même ligne
+        if (index >= rowStartIndex && index < rowEndIndex) {
+            if (currentContent.style.display === 'block') {
+                currentContent.style.display = 'none';
+                currentIcon.style.transform = 'rotate(0deg)';
+            } else {
+                currentContent.style.display = 'block';
+                currentIcon.style.transform = 'rotate(180deg)';
+            }
+        } else {
+            // Fermer les autres lignes
+            currentContent.style.display = 'none';
+            currentIcon.style.transform = 'rotate(0deg)';
+        }
+    });
+}
+
+
+
+        function startQuiz() {
+            alert('Quiz en développement. Restez attentif !');
+        }
+    </script>
+</body>
+</html>
